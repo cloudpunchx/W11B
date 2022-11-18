@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: lavender;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+img {
+  height: 250px;
+}
+
+#bookSelection {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.bookDiv {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  margin: 20px;
+}
+
+button {
+  padding: 5px;
+  margin-top: 5px;
+}/*# sourceMappingURL=style.css.map */
